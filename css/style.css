@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
   
   .header_menu ul li a {
-    color: #F47106; /* #2ca2f2 */
+    color:  #2ca2f2;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -469,7 +469,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
   
   .header_menu ul li a:hover {
-    color: #DC8231 /*#2d3cf2*/;
+    color: #2d3cf2;
   }
 
   .header div a img{
@@ -478,8 +478,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 /* Button style */
 .blue_btn{
-  /* background-image: linear-gradient(to right, #2ca2f2, #2d3cf2); */
-  background-image: linear-gradient(to right, #DC8231, #F47106);
+  background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);
+  /*background-image: linear-gradient(to right, #DC8231, #F47106);*/
   border-radius: 30px;
   padding: 10px;
   -webkit-transition: 0.5s ease-out;
@@ -492,9 +492,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   color: #fff !important;
 }
 
+.btn_content{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .blue_btn:hover{
-  /* background-image: linear-gradient(to right, #2ca2f2, #2d3cf2); */
-  background-image: linear-gradient(to right, #F47106, #DC8231);
+  background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);
+  /*background-image: linear-gradient(to right, #DC8231, #F47106);*/
   box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
   -webkit-transition: 0.5s ease-out;
   -moz-transition: 0.5s ease-out;
@@ -507,7 +513,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .introducao{
       margin-top: 6%;
       width: 100%;
-      background: #F47106 /*#2ca2f2*/;
+      background: #2ca2f2;
       padding-bottom: 10pt;
   }
 
@@ -579,8 +585,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .introducao2{
     width: 100%;
     height: 400px;
-    background: url("../img/orange_third.png") no-repeat center;
+    background: url("../img/initial.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
    }
 
   .texto_home{
@@ -613,7 +622,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .infos{
     width: 100%;
-    background: #F47106;
+    background: #2ca2f2;
     padding: 1.5em;
    }
 
@@ -627,4 +636,53 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     font-size: 1.2em;
     margin-top: 1em;
     margin-left: 3em;
+    color: #fff;
+  }
+
+  .subtitulo{
+    font-family: 'DM Sans', sans-serif;
+    font-size:30px;
+  }
+
+  /* Como funciona */
+
+  .subtitulo{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:2em;
+    margin-bottom: 2em; 
+  }
+
+  .steps_how_work div{
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  /* Call for professional */
+
+  .call_for_professional{
+    width: 100%;
+    height: 400px;
+    background: url("../img/call1.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  /* Footer */
+  .footer{
+    width: 100%;
+    background: #2ca2f2;
+    padding: 15px 0;
+  }
+
+  .footer_direitos{
+    text-align: right;
+    color:#fff;
   }
