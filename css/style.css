@@ -5,6 +5,17 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
+@font-face{
+  font-family: "Avenir black";
+  src: local("Avenir black"), url("../font/avenir-lt-std-95-black.otf");
+}
+
+@font-face{
+  font-family: "Avenir normal";
+  src: local("Avenir normal"), url("../font/AvenirLTStd-Light.otf");
+}
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -436,6 +447,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
  * Styles
  */
 
+ .blue{
+  color:  #2ca2f2;
+ }
+
+ .orange{
+   color: #FFA500;
+ }
  /* Header */
 
  .header {
@@ -458,13 +476,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
   
   .header_menu ul li a {
+    font-family: "Avenir black" !important;
     color:  #2ca2f2;
-    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
     font-size: 14px;
     line-height: 20px;
-    padding: 10px 0;
+    padding: 10px;
     transition: all .3s ease;
   }
   
@@ -478,8 +496,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 /* Button style */
 .blue_btn{
-  background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);
-  /*background-image: linear-gradient(to right, #DC8231, #F47106);*/
+  /*background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);*/
+  background-image: linear-gradient(to right, #FFA500, #F47106);
   border-radius: 30px;
   padding: 10px;
   -webkit-transition: 0.5s ease-out;
@@ -493,15 +511,27 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 }
 
 .btn_content{
+  font-family: "Avenir black" !important;
   color: #fff !important;
   text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 13px;
+  transition: all .3s ease;
 }
 
 .blue_btn:hover{
-  background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);
-  /*background-image: linear-gradient(to right, #DC8231, #F47106);*/
-  box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
+  box-shadow: 0px 5px 10px rgba(255,165,0,0.40);
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.btn_content:hover{
+  box-shadow: 0px 5px 10px rgba(255,165,0,0.40);
   -webkit-transition: 0.5s ease-out;
   -moz-transition: 0.5s ease-out;
   -o-transition: 0.5s ease-out;
@@ -534,6 +564,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
   
   .header_menu2 ul li a{
+    font-family: "Avenir normal";
     text-align: center;
     color: #fff;
     letter-spacing: .1em;
@@ -561,7 +592,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     padding: 6pt;
     border: none;
     float: left;
-    box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
+    box-shadow: 0px 5px 10px rgba(105,105,105,0.40);
   }
 
   #btn_search{
@@ -602,12 +633,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
    }
 
   .texto_home h1{
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Avenir black";
     line-height: 1.1em;
     font-size: 45px;
    }
 
   .texto_home p{
+    font-family: "Avenir normal";
     margin-top: .5em;
     margin-bottom: .5em;
     line-height:1.2em;
@@ -632,27 +664,27 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   .infos_lista li h3{
+    font-family: "Avenir normal";
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 1em;
     margin-left: 3em;
     color: #fff;
   }
 
-  .subtitulo{
-    font-family: 'DM Sans', sans-serif;
-    font-size:30px;
-  }
-
   /* Como funciona */
 
+  .how_work{
+    padding-bottom: 4em;
+  }
+
   .subtitulo{
+    font-family: "Avenir black";
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
-    letter-spacing: .1em;
     color: #000;
-    text-transform: uppercase;
+    
     text-align: center;
     margin-top:2em;
     margin-bottom: 2em; 
@@ -661,6 +693,75 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .steps_how_work div{
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  .how_work .container{
+    font-family: "Avenir normal";
+    text-align: center;
+  }
+
+/* Mais informações */
+  .more_infos{
+    width: 100%;
+    background: #2ca2f2;
+    padding: 1.5em;
+    font-weight: bold;
+  }
+
+  .more_infos li h3, .more_infos li p{
+    font-size: 1.5em;
+    font-family: "Avenir normal";
+    color: #fff;
+  }
+
+  /* Comece agora */
+  .starter_now{
+    font-family: "Avenir normal";
+    padding-bottom: 4em;
+  }
+
+  .starter_now div{
+    text-align: center;
+  }
+
+  .starter_now div p:before{
+    content: url("https://i.imgur.com/lDmqCkA.png");
+    display: block; 
+    margin: 14px auto 10px 10em;
+    text-align: left;
+  }
+
+  .starter_now div p:after {
+    content: url("https://i.imgur.com/QeCEgK6.png");
+    display: block; 
+    margin: 14px 10em 10px auto;
+    text-align: right;
+  }
+
+  .flex_items{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+  #search_center{
+    width:70%;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 6pt;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
+  }
+
+  #btn_search_center{
+    width: 2.2em;
+    height: 2.2em;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
+    margin-left: .3em;
+    padding: .2em;
   }
 
   /* Call for professional */
@@ -675,6 +776,48 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     -o-background-size: cover;
   }
 
+  .texto_final{
+    font-family: "Avenir normal";
+    text-align: left;
+    background: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 300pt;
+    float: left;
+   }
+
+  .texto_final h1{
+    font-family: "Avenir black";
+    line-height: 1.1em;
+    font-size: 45px;
+   }
+
+  .texto_final p{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    line-height:1.2em;
+    text-align: justify;
+  }
+
+  .texto_final a{
+    float: left;
+  }
+
+  /* Social */
+
+  .social_network{
+    padding-bottom: .5em;
+  }
+  
+  .icons_social{
+    text-align: center;
+  }
+
+  .icons_social li{
+    display: inline-block;
+    margin: .5em;
+  }
+
   /* Footer */
   .footer{
     width: 100%;
@@ -683,6 +826,17 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   .footer_direitos{
+    font-family: "Avenir normal";
     text-align: right;
     color:#fff;
+  }
+
+  .footer .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer .container a{
+    float: left;
   }
