@@ -822,14 +822,16 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     background: 50px;
     margin-top: 30px;
     padding: 10px;
-    width: 300pt;
+    width: 500pt;
     float: left;
+    
    }
 
   .texto_final h1{
     font-family: "Avenir black";
     line-height: 1.1em;
     font-size: 45px;
+    margin-bottom: .2em;
    }
 
   .texto_final p{
@@ -886,6 +888,75 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .list_icons{
     float:right;
     
+  }
+
+  /* Mapa */
+
+  .map{
+    width:100%;
+    background: #0086FF;
+  }
+
+  .subtitulo_servicos{
+    font-family: "Avenir black";
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-top:.5em;
+    margin-left:.5em;
+  }
+
+  .links{
+    float: right;
+  }
+
+  .subtitulo_links{
+    font-family: "Avenir black";
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+    margin-top:.5em;
+    margin-left:.5em;
+  }
+
+  .subtitulo_area{
+    font-family: "Avenir black";
+    font-size: .8em;
+    color: #fff;
+    text-align: left;
+    margin-top:.5em;
+    margin-left:.5em;
+  }
+
+  .list_servicos{
+    font-family: "Avenir normal";
+    font-size: .8em;
+    display: inline-block;
+    margin-top:.5em;
+    margin-left:.5em;
+  }
+
+  .list_links{
+    font-family: "Avenir normal";
+    text-align: right;
+    font-size: .8em;
+    display: inline-block;
+    margin-top:.5em;
+    margin-left:.5em;
+  }
+
+  .list_servicos a, .list_links a{
+    color: #fff;
+  }
+
+  .list_container{
+    display: inline-block;
+    margin-right: .5em;
+    max-height: 9em;
   }
 
   /* Footer */
