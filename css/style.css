@@ -448,11 +448,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
  */
 
  .blue{
-  color:  #2ca2f2;
+  color:  #0086FF;
  }
 
  .orange{
-   color: #FFA500;
+   color: #FF9D00;
  }
  /* Header */
 
@@ -463,6 +463,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     background: #fff;
     padding: 15px 0;
     z-index: 10;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
   }
 
   .header_menu {
@@ -477,7 +478,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   
   .header_menu ul li a {
     font-family: "Avenir black" !important;
-    color:  #2ca2f2;
+    color:  #0086FF;
     text-transform: uppercase;
     letter-spacing: .1em;
     font-size: 14px;
@@ -487,7 +488,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
   
   .header_menu ul li a:hover {
-    color: #2d3cf2;
+    color: #3f78bb;
   }
 
   .header div a img{
@@ -543,7 +544,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .introducao{
       margin-top: 6%;
       width: 100%;
-      background: #2ca2f2;
+      background: #fff;  /*#3f78bb #025392*/;
       padding-bottom: 10pt;
   }
 
@@ -555,33 +556,48 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     width: 60%;
     margin-right: 5px;
     float:left;
+    display: flex;
   }
 
   .header_menu2 ul li{
     width: 100pt;
-    display: inline-block;
+    display: list-item;
     margin-top: 20px;
   }
   
-  .header_menu2 ul li a{
+  .areas_link{
     font-family: "Avenir normal";
     text-align: center;
-    color: #fff;
+    color: #A9A9A9;
+    fill: #A9A9A9; /*#3f78bb*/;
     letter-spacing: .1em;
     font-size: 12px;
     line-height: 20px;
     padding: 10px 0;
-    transition: all .3s ease;
-    
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
   }
 
-  .header_menu2 ul li a svg{
-    fill: #fff;
+  .header_menu2 ul li a div:hover{
+    color: #0086FF;
+    fill: #0086FF;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
   }
 
-  .header_menu2 ul li a div{
-    text-align: center;
+  .header_menu2 ul li a:hover{
+    fill: #0086FF;
+    color: #0086FF;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
   }
+
 
   /* Search */
 
@@ -616,7 +632,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .introducao2{
     width: 100%;
     height: 400px;
-    background: url("../img/initial.png") no-repeat center;
+    
+    background: url("../img/third3.png") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -654,8 +671,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .infos{
     width: 100%;
-    background: #2ca2f2;
-    padding: 1.5em;
+    background: #0086FF;
+    padding-top: .4em;
    }
 
   .infos_icone{
@@ -666,7 +683,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .infos_lista li h3{
     font-family: "Avenir normal";
     justify-content: center;
-    font-size: 1.5em;
+    font-size: .8em;
     margin-top: 1em;
     margin-left: 3em;
     color: #fff;
@@ -676,6 +693,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .how_work{
     padding-bottom: 4em;
+    display:flex;
   }
 
   .subtitulo{
@@ -687,12 +705,36 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     
     text-align: center;
     margin-top:2em;
-    margin-bottom: 2em; 
+    
   }
 
   .steps_how_work div{
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  .step{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .svg_icon{
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 10em;
+    height: 10em;
+    border: solid 2px #0086FF;
+    border-radius: 50%;
+    
+    background: transparent;
+  }
+
+  .step svg{
+    margin-top: 30%;
+    margin-left: 2%;
+    fill: #0086FF;
   }
 
   .how_work .container{
@@ -703,7 +745,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 /* Mais informações */
   .more_infos{
     width: 100%;
-    background: #2ca2f2;
+    background: #0086FF;
     padding: 1.5em;
     font-weight: bold;
   }
@@ -821,7 +863,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   /* Footer */
   .footer{
     width: 100%;
-    background: #2ca2f2;
+    background: #0086FF;
     padding: 15px 0;
   }
 
