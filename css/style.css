@@ -702,10 +702,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     line-height: 30px;
     font-weight: bold;
     color: #000;
-    
     text-align: center;
     margin-top:2em;
-    
   }
 
   .steps_how_work div{
@@ -725,14 +723,14 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     margin: 0 auto;
     width: 10em;
     height: 10em;
-    border: solid 2px #0086FF;
+    border: solid 3px #0086FF;
     border-radius: 50%;
     
     background: transparent;
   }
 
   .step svg{
-    margin-top: 30%;
+    margin-top: 15%;
     margin-left: 2%;
     fill: #0086FF;
   }
@@ -847,17 +845,47 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   /* Social */
 
+  .texto_final_social{
+    font-family: "Avenir normal";
+    text-align: left;
+    background: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20%;
+    padding: 10px;
+    width: 300pt;
+    float: left;
+   }
+
+  .texto_final_social h1{
+    font-family: "Avenir black";
+    line-height: 1.1em;
+    font-size: 45px;
+   }
+
   .social_network{
-    padding-bottom: .5em;
-  }
-  
-  .icons_social{
-    text-align: center;
+    width: 100%;
   }
 
+  .social_network .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .icons_social li{
+    text-align: center;
     display: inline-block;
-    margin: .5em;
+  }
+
+  .icons_social li a img{
+    width: 5em;
+    height: 5em;
+  }
+
+  .list_icons{
+    float:right;
+    
   }
 
   /* Footer */
@@ -881,4 +909,5 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .footer .container a{
     float: left;
+    margin-right: 30%;
   }
