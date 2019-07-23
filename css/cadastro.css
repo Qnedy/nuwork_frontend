@@ -512,8 +512,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     color: #A9A9A9 /*#0086FF*/;
 }
 
-hr{
-    border: solid .6px #A9A9A9;
+.hr_fino{
+    border: solid .5px #A9A9A9;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -596,140 +596,159 @@ hr{
     transition: 0.5s ease-out;
 }
 
+
+/* Serviços */
+
+.option{
+  height: 1em;
+  display:flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.option label{
+  margin-bottom: .4em;
+}
+
+.group_check{
+  font-family: "Avenir black";
+
+}
+
   /* Social */
 
 .texto_final_social{
-    font-family: "Avenir normal";
-    text-align: left;
-    background: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 20%;
-    padding: 10px;
-    width: 300pt;
-    float: left;
+  font-family: "Avenir normal";
+  text-align: left;
+  background: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20%;
+  padding: 10px;
+  width: 300pt;
+  float: left;
 }
 
 .texto_final_social h1{
-    font-family: "Avenir black";
-    line-height: 1.1em;
-    font-size: 45px;
+  font-family: "Avenir black";
+  line-height: 1.1em;
+  font-size: 45px;
 }
 
 .social_network{
-    width: 100%;
+  width: 100%;
 }
 
 .social_network .container{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icons_social li{
-    text-align: center;
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 .icons_social li a img{
-    width: 5em;
-    height: 5em;
+  width: 5em;
+  height: 5em;
 }
 
 .list_icons{
-    float:right;
+  float:right;
 
 }
 
 /* Mapa */
 
 .map{
-    width:100%;
-    background: #0086FF;
+  width:100%;
+  background: #0086FF;
 }
 
 .subtitulo_servicos{
-    font-family: "Avenir black";
-    font-size: 1em;
-    line-height: 30px;
-    font-weight: bold;
-    color: #fff;
-    text-align: left;
-    margin-top:.5em;
-    margin-left:.5em;
+  font-family: "Avenir black";
+  font-size: 1em;
+  line-height: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  margin-top:.5em;
+  margin-left:.5em;
 }
 
 .links{
-    float: right;
+  float: right;
 }
 
 .subtitulo_links{
-    font-family: "Avenir black";
-    font-size: 1em;
-    line-height: 30px;
-    font-weight: bold;
-    color: #fff;
-    text-align: right;
-    margin-top:.5em;
-    margin-left:.5em;
+  font-family: "Avenir black";
+  font-size: 1em;
+  line-height: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  margin-top:.5em;
+  margin-left:.5em;
 }
 
 .subtitulo_area{
-    font-family: "Avenir black";
-    font-size: .8em;
-    color: #fff;
-    text-align: left;
-    margin-top:.5em;
-    margin-left:.5em;
+  font-family: "Avenir black";
+  font-size: .8em;
+  color: #fff;
+  text-align: left;
+  margin-top:.5em;
+  margin-left:.5em;
 }
 
 .list_servicos{
-    font-family: "Avenir normal";
-    font-size: .8em;
-    display: inline-block;
-    margin-top:.5em;
-    margin-left:.5em;
+  font-family: "Avenir normal";
+  font-size: .8em;
+  display: inline-block;
+  margin-top:.5em;
+  margin-left:.5em;
 }
 
 .list_links{
-    font-family: "Avenir normal";
-    text-align: right;
-    font-size: .8em;
-    display: inline-block;
-    margin-top:.5em;
-    margin-left:.5em;
+  font-family: "Avenir normal";
+  text-align: right;
+  font-size: .8em;
+  display: inline-block;
+  margin-top:.5em;
+  margin-left:.5em;
 }
 
 .list_servicos a, .list_links a{
-    color: #fff;
+  color: #fff;
 }
 
 .list_container{
-    display: inline-block;
-    margin-right: .5em;
-    max-height: 9em;
+  display: inline-block;
+  margin-right: .5em;
+  max-height: 9em;
 }
 
 /* Footer */
 .footer{
-    width: 100%;
-    background: #0086FF;
-    padding: 15px 0;
+  width: 100%;
+  background: #0086FF;
+  padding: 15px 0;
 }
 
 .footer_direitos{
-    font-family: "Avenir normal";
-    text-align: right;
-    color:#fff;
+  font-family: "Avenir normal";
+  text-align: right;
+  color:#fff;
 }
 
 .footer .container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer .container a{
-    float: left;
-    margin-right: 30%;
+  float: left;
+  margin-right: 30%;
 }
