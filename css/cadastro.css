@@ -481,22 +481,92 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     background: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 20%;
+    margin-right: 5%;
     padding: 10px;
-    width: 400pt;
-    float: left;
+    width: 300pt;
+    display: inline-block;
    }
 
-  .texto_cadastro h1{
+.texto_cadastro h1{
     font-family: "Avenir black";
     line-height: 1.1em;
-    font-size: 45px;
+    font-size: 35px;
    }
+
+
+/* Formulário */
+
+.form{
+    box-shadow: 0px 5px 10px rgba(105,105,105,0.40);
+    width: 30em;
+    display: inline-block;
+    font-family: "Avenir normal";
+    color: #A9A9A9;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.form fieldset h1{
+    font-family: "Avenir black";
+    font-size: 2em;
+    color: #A9A9A9 /*#0086FF*/;
+}
+
+hr{
+    border: solid .6px #A9A9A9;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.campo input{
+    border-radius: 5px;
+    border: solid .6px #A9A9A9;
+    width: 100%;
+    margin-left: 0px;
+    padding: .3em;
+    color: #0086FF;
+}
+
+.form input{
+    margin-right: .5em;
+    margin-top: .2em;
+    margin-bottom: .5em;
+    height: 2.5em;
+}
+
+.campo label{
+    display: block;
+}
+
+/* Botão */
+
+.btn_next{
+    color: #fff !important;
+    /*background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);*/
+    background-image: linear-gradient(to right, #FFA500, #F47106);
+    border-radius: 30px;
+    padding: 10px;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    width: 100%;
+    margin-top: 1em;
+    border: 0px;
+}
+
+.btn_next:hover{
+    box-shadow: 0px 5px 10px rgba(255,165,0,0.40);
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
 
 
   /* Social */
 
-  .texto_final_social{
+.texto_final_social{
     font-family: "Avenir normal";
     text-align: left;
     background: 50px;
@@ -506,47 +576,47 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     padding: 10px;
     width: 300pt;
     float: left;
-   }
+}
 
-  .texto_final_social h1{
+.texto_final_social h1{
     font-family: "Avenir black";
     line-height: 1.1em;
     font-size: 45px;
-   }
+}
 
-  .social_network{
+.social_network{
     width: 100%;
-  }
+}
 
-  .social_network .container{
+.social_network .container{
     display:flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .icons_social li{
+}
+
+.icons_social li{
     text-align: center;
     display: inline-block;
-  }
+}
 
-  .icons_social li a img{
+.icons_social li a img{
     width: 5em;
     height: 5em;
-  }
+}
 
-  .list_icons{
+.list_icons{
     float:right;
-    
-  }
 
-  /* Mapa */
+}
 
-  .map{
+/* Mapa */
+
+.map{
     width:100%;
     background: #0086FF;
-  }
+}
 
-  .subtitulo_servicos{
+.subtitulo_servicos{
     font-family: "Avenir black";
     font-size: 1em;
     line-height: 30px;
@@ -555,13 +625,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     text-align: left;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .links{
+.links{
     float: right;
-  }
+}
 
-  .subtitulo_links{
+.subtitulo_links{
     font-family: "Avenir black";
     font-size: 1em;
     line-height: 30px;
@@ -570,64 +640,64 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     text-align: right;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .subtitulo_area{
+.subtitulo_area{
     font-family: "Avenir black";
     font-size: .8em;
     color: #fff;
     text-align: left;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .list_servicos{
+.list_servicos{
     font-family: "Avenir normal";
     font-size: .8em;
     display: inline-block;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .list_links{
+.list_links{
     font-family: "Avenir normal";
     text-align: right;
     font-size: .8em;
     display: inline-block;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .list_servicos a, .list_links a{
+.list_servicos a, .list_links a{
     color: #fff;
-  }
+}
 
-  .list_container{
+.list_container{
     display: inline-block;
     margin-right: .5em;
     max-height: 9em;
-  }
+}
 
-  /* Footer */
-  .footer{
+/* Footer */
+.footer{
     width: 100%;
     background: #0086FF;
     padding: 15px 0;
-  }
+}
 
-  .footer_direitos{
+.footer_direitos{
     font-family: "Avenir normal";
     text-align: right;
     color:#fff;
-  }
+}
 
-  .footer .container{
+.footer .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
 
-  .footer .container a{
+.footer .container a{
     float: left;
     margin-right: 30%;
-  }
+}
