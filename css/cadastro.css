@@ -509,18 +509,18 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 .form fieldset h1{
     font-family: "Avenir black";
     font-size: 2em;
-    color: #A9A9A9 /*#0086FF*/;
+    color: #0086FF;
 }
 
 .hr_fino{
-    border: solid .5px #A9A9A9;
+    border: solid .5px #0086FF /*#A9A9A9*/;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 .campo input{
     border-radius: 5px;
-    border: solid .6px #A9A9A9;
+    border: solid .6px #0086FF;
     width: 100%;
     margin-left: 0px;
     padding: .4em;
@@ -537,6 +537,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 .campo label{
     display: block;
+    color: #0086FF;
 }
 
 /* Botão */
@@ -545,7 +546,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     font-family: "Avenir black";
     color: #fff !important;
     /*background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);*/
-    background-image: linear-gradient(to right, #FFA500, #F47106);
+    /*background-image: linear-gradient(to right, #FFA500, #F47106);*/
+    background: #FFA500;
     border-radius: 30px;
     padding: 10px;
     -webkit-transition: 0.5s ease-out;
@@ -559,6 +561,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 }
 
 .btn_next:hover{
+    background: #F47106;
     box-shadow: 0px 5px 10px rgba(255,165,0,0.40);
     -webkit-transition: 0.5s ease-out;
     -moz-transition: 0.5s ease-out;
@@ -569,7 +572,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 .btn_back{
     font-family: "Avenir black";
-    color: #A9A9A9 !important;
+    color: #0086FF !important;
     /*background-image: linear-gradient(to right, #2ca2f2, #2d3cf2);*/
     /*background-image: linear-gradient(to right, #FFA500, #F47106);*/
     background: transparent;
@@ -581,15 +584,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     transition: 0.5s ease-out;
     width: 49%;
     margin-top: 1em;
-    border: 1px solid #A9A9A9;
+    border: 1px solid #0086FF /*#A9A9A9*/;
     display: inline-block;
 }
 
 .btn_back:hover{
     color: #fff !important;
     box-shadow: 0px 5px 10px rgba(105,105,105,0.40);
-    background: #A9A9A9;
-    border: 1px solid #A9A9A9;
+    background: #0086FF;
+    border: 1px solid #0086FF;
     -webkit-transition: 0.5s ease-out;
     -moz-transition: 0.5s ease-out;
     -o-transition: 0.5s ease-out;
@@ -608,11 +611,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 .option label{
   margin-bottom: .4em;
+  color: #0086FF;
 }
 
 .group_check{
   font-family: "Avenir black";
-
+  color: #0086FF;
 }
 
   /* Social */

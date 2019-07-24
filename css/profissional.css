@@ -633,9 +633,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .introducao2{
     width: 100%;
-    height: 400px;
-    
-    background: url("../img/third3.png") no-repeat center;
+    height: 35em;
+    margin-top: 86px;
+    background: url("../img/mobile.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -645,7 +645,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .texto_home{
     text-align: left;
     background: 50px;
-    margin-top: 30px;
+    margin-top: 100px;
     padding: 10px;
     width: 300pt;
     float: right;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .texto_home p{
     font-family: "Avenir normal";
     margin-top: .5em;
-    margin-bottom: .5em;
+    margin-bottom: 1.5em;
     line-height:1.2em;
     text-align: justify;
   }
@@ -693,122 +693,136 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   /* Como funciona */
 
-  .how_work{
-    padding-bottom: 4em;
+.exemplo{
+    padding-top: 4em;
     display:flex;
-  }
+}
 
-  .subtitulo{
+.exemplo_02{
+    background: #F9F9F9;
+    padding-top: 4em;
+    display:flex;
+}
+
+.subtitulo{
     font-family: "Avenir black";
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
     color: #000;
-    text-align: center;
+    text-align: left;
     margin-top:2em;
-  }
+}
 
-  .steps_how_work div{
-    margin-top: 2em;
-    margin-bottom: 2em;
-  }
+.texto{
+    margin-right: 10em;
+}
 
-  .step{
-    justify-content: center;
-    align-items: center;
-  }
-
-  .svg_icon{
-    position:relative;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 10em;
-    height: 10em;
-    border: solid 3px #0086FF;
-    border-radius: 50%;
-    
-    background: transparent;
-  }
-
-  .step svg{
-    margin-top: 15%;
-    margin-left: 2%;
-    fill: #0086FF;
-  }
-
-  .how_work .container{
+.texto p{
     font-family: "Avenir normal";
-    text-align: center;
-  }
+}
+
+.steps_how_work div{
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
+.step{
+justify-content: center;
+align-items: center;
+}
+
+.svg_icon{
+position:relative;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+width: 10em;
+height: 10em;
+border: solid 3px #0086FF;
+border-radius: 50%;
+
+background: transparent;
+}
+
+.step svg{
+margin-top: 15%;
+margin-left: 2%;
+fill: #0086FF;
+}
+
+.how_work .container{
+font-family: "Avenir normal";
+text-align: center;
+}
 
 /* Mais informações */
-  .more_infos{
-    width: 100%;
-    background: #0086FF;
-    padding: 1.5em;
-    font-weight: bold;
-  }
+.more_infos{
+width: 100%;
+background: #0086FF;
+padding: 1.5em;
+font-weight: bold;
+}
 
-  .more_infos li h3, .more_infos li p{
-    font-size: 1.5em;
-    font-family: "Avenir normal";
-    color: #fff;
-  }
+.more_infos li h3, .more_infos li p{
+font-size: 1.5em;
+font-family: "Avenir normal";
+color: #fff;
+}
 
-  /* Comece agora */
-  .starter_now{
-    font-family: "Avenir normal";
-    padding-bottom: 4em;
-  }
+/* Comece agora */
+.starter_now{
+font-family: "Avenir normal";
+padding-bottom: 4em;
+}
 
-  .starter_now div{
-    text-align: center;
-  }
+.starter_now div{
+text-align: center;
+}
 
-  .starter_now div p:before{
-    content: url("https://i.imgur.com/lDmqCkA.png");
-    display: block; 
-    margin: 14px auto 10px 10em;
-    text-align: left;
-  }
+.starter_now div p:before{
+content: url("https://i.imgur.com/lDmqCkA.png");
+display: block; 
+margin: 14px auto 10px 10em;
+text-align: left;
+}
 
-  .starter_now div p:after {
-    content: url("https://i.imgur.com/QeCEgK6.png");
-    display: block; 
-    margin: 14px 10em 10px auto;
-    text-align: right;
-  }
+.starter_now div p:after {
+content: url("https://i.imgur.com/QeCEgK6.png");
+display: block; 
+margin: 14px 10em 10px auto;
+text-align: right;
+}
 
-  .flex_items{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1em;
-  }
+.flex_items{
+display:flex;
+align-items: center;
+justify-content: center;
+margin-top: 1em;
+}
 
-  #search_center{
-    width:70%;
-    border-radius: 30px;
-    display: inline-block;
-    padding: 6pt;
-    border: none;
-    box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
-  }
+#search_center{
+width:70%;
+border-radius: 30px;
+display: inline-block;
+padding: 6pt;
+border: none;
+box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
+}
 
-  #btn_search_center{
-    width: 2.2em;
-    height: 2.2em;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
-    margin-left: .3em;
-    padding: .2em;
-  }
+#btn_search_center{
+width: 2.2em;
+height: 2.2em;
+background: #fff;
+border-radius: 30px;
+box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
+margin-left: .3em;
+padding: .2em;
+}
 
-  /* Call for professional */
+/* Call for professional */
 
-  .call_for_professional{
+.call_for_professional{
     width: 100%;
     height: 400px;
     background: url("../img/call1.png") no-repeat center;
@@ -816,9 +830,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-  }
+}
 
-  .texto_final{
+.texto_final{
     font-family: "Avenir normal";
     text-align: left;
     background: 50px;
@@ -826,30 +840,30 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     padding: 10px;
     width: 500pt;
     float: left;
-    
-   }
 
-  .texto_final h1{
+}
+
+.texto_final h1{
     font-family: "Avenir black";
     line-height: 1.1em;
     font-size: 45px;
     margin-bottom: .2em;
-   }
+}
 
-  .texto_final p{
+.texto_final p{
     margin-top: .5em;
     margin-bottom: .5em;
     line-height:1.2em;
     text-align: justify;
-  }
+}
 
-  .texto_final a{
+.texto_final a{
     float: left;
-  }
+}
 
-  /* Social */
+/* Social */
 
-  .texto_final_social{
+.texto_final_social{
     font-family: "Avenir normal";
     text-align: left;
     background: 50px;
@@ -859,47 +873,47 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     padding: 10px;
     width: 300pt;
     float: left;
-   }
+}
 
-  .texto_final_social h1{
+.texto_final_social h1{
     font-family: "Avenir black";
     line-height: 1.1em;
     font-size: 45px;
-   }
+}
 
-  .social_network{
+.social_network{
     width: 100%;
-  }
+}
 
-  .social_network .container{
+.social_network .container{
     display:flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .icons_social li{
+}
+
+.icons_social li{
     text-align: center;
     display: inline-block;
-  }
+}
 
-  .icons_social li a img{
+.icons_social li a img{
     width: 5em;
     height: 5em;
-  }
+}
 
-  .list_icons{
+.list_icons{
     float:right;
-    
-  }
 
-  /* Mapa */
+}
 
-  .map{
+/* Mapa */
+
+.map{
     width:100%;
     background: #0086FF;
-  }
+}
 
-  .subtitulo_servicos{
+.subtitulo_servicos{
     font-family: "Avenir black";
     font-size: 1em;
     line-height: 30px;
@@ -908,13 +922,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     text-align: left;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .links{
+.links{
     float: right;
-  }
+}
 
-  .subtitulo_links{
+.subtitulo_links{
     font-family: "Avenir black";
     font-size: 1em;
     line-height: 30px;
@@ -923,64 +937,64 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     text-align: right;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .subtitulo_area{
+.subtitulo_area{
     font-family: "Avenir black";
     font-size: .8em;
     color: #fff;
     text-align: left;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .list_servicos{
+.list_servicos{
     font-family: "Avenir normal";
     font-size: .8em;
     display: inline-block;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .list_links{
+.list_links{
     font-family: "Avenir normal";
     text-align: right;
     font-size: .8em;
     display: inline-block;
     margin-top:.5em;
     margin-left:.5em;
-  }
+}
 
-  .list_servicos a, .list_links a{
+.list_servicos a, .list_links a{
     color: #fff;
-  }
+}
 
-  .list_container{
+.list_container{
     display: inline-block;
     margin-right: .5em;
     max-height: 9em;
-  }
+}
 
-  /* Footer */
-  .footer{
+/* Footer */
+.footer{
     width: 100%;
     background: #0086FF;
     padding: 15px 0;
-  }
+}
 
-  .footer_direitos{
+.footer_direitos{
     font-family: "Avenir normal";
     text-align: right;
     color:#fff;
-  }
+}
 
-  .footer .container{
+.footer .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
 
-  .footer .container a{
+.footer .container a{
     float: left;
     margin-right: 30%;
-  }
+}
