@@ -457,12 +457,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
  /* Header */
 
  .header {
-    position: fixed;
+    
     top: 0;
     width: 100%;
     background: #fff;
     padding: 15px 0;
-    z-index: 10;
+    z-index: 1;
     box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
   }
 
@@ -543,15 +543,18 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   /* Introdução */
 
-  .introducao{
-      margin-top: 6%;
-      width: 100%;
-      background: #fff;  /*#3f78bb #025392*/;
-      padding-bottom: 10pt;
-  }
+.introducao{
+    position: fixed;
+    width: 100%;
+    background: #fff;  /*#3f78bb #025392*/;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    z-index: 1;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
 
   .header_menu2{
-      text-align: left;
+    text-align: left;
   }
 
   .header_menu2 ul{
@@ -564,7 +567,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .header_menu2 ul li{
     width: 100pt;
     display: list-item;
-    margin-top: 20px;
   }
   
   .areas_link{
@@ -625,16 +627,17 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   .search_in_list{
-    margin-top: 2.3em;
+    margin-top: 1em;
     float:right;
+    color: rgba(105,105,105,0.05) !important;
   }
 
    /* Introdução 2 */
 
-  .introducao2{
+  .main_home{
     width: 100%;
     height: 400px;
-    
+    margin-top: 95px;
     background: url("../img/third3.png") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -667,6 +670,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .texto_home div a{
     float: left;
+  }
+
+  .textinho{
+    margin-top: 2em;
+    font-style: italic;
+    color: #0086FF;
   }
 
    /* Informações */
@@ -896,7 +905,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .map{
     width:100%;
-    background: #0086FF;
+    background: #fff;
+    padding-top: .5em;
+    padding-bottom: .5em;
   }
 
   .subtitulo_servicos{
@@ -904,14 +915,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     font-size: 1em;
     line-height: 30px;
     font-weight: bold;
-    color: #fff;
+    color: #0086FF;
     text-align: left;
-    margin-top:.5em;
+    
     margin-left:.5em;
-  }
-
-  .links{
-    float: right;
   }
 
   .subtitulo_links{
@@ -919,16 +926,16 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     font-size: 1em;
     line-height: 30px;
     font-weight: bold;
-    color: #fff;
+    color: #0086FF;
     text-align: right;
     margin-top:.5em;
     margin-left:.5em;
   }
 
   .subtitulo_area{
-    font-family: "Avenir black";
+    font-family: "Avenir normal";
     font-size: .8em;
-    color: #fff;
+    color: #0086FF;
     text-align: left;
     margin-top:.5em;
     margin-left:.5em;
@@ -944,7 +951,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .list_links{
     font-family: "Avenir normal";
-    text-align: right;
+    
     font-size: .8em;
     display: inline-block;
     margin-top:.5em;
@@ -952,13 +959,41 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   .list_servicos a, .list_links a{
-    color: #fff;
+    color: #0086FF;
   }
 
   .list_container{
     display: inline-block;
     margin-right: .5em;
     max-height: 9em;
+  }
+
+  .footer_redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer_redes ul li a {
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    transition: all .5s ease;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .footer_redes ul li a {
+      display: block;
+      padding: 6px;
+    }
+  }
+  
+  .footer_redes ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer_redes ul li a:hover {
+    border-color: #0086FF;
   }
 
   /* Footer */
