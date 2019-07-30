@@ -678,6 +678,43 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     color: #0086FF;
   }
 
+  /* modal */
+
+.modal_bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;  /*#3f78bb #025392*/;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  z-index: 1;
+  box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+  height: auto;
+}
+
+.modal_bottom h1{
+  font-family: "Avenir black";
+  line-height: 1.1em;
+  font-size: 45px;
+  margin-bottom: .2em;
+  margin-right: 1.3em;
+}
+
+.btn_modal{
+  margin-top: .5em;
+  font-family: "Avenir black" !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 13px;
+  transition: all .3s ease;
+  display: inline-block;
+}
+
+
    /* Informações */
 
   .infos{
@@ -1001,6 +1038,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     width: 100%;
     background: #0086FF;
     padding: 15px 0;
+    height: 10em;
   }
 
   .footer_direitos{
