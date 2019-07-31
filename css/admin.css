@@ -706,6 +706,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 .subtitulo_card{
     font-family: "Avenir black";
+    display: inline-flex;
 }
 
 .card img{
@@ -729,8 +730,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 }
 
 .card_block_info{
-    width: 70%;
-    display: inline-block;
+  margin-top: .5em;
+  width: 70%;
+  display: inline-block;
 }
 
 .local_img{
@@ -743,6 +745,18 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     margin: .5em;
     padding: .3em;
     border-radius: 30px;
+}
+
+.cadeado{
+  background: transparent;
+  border-radius: 10px;
+  display: inline-flex;
+  margin-left: .5em;
+}
+
+.cadeado img{
+  width: 60px !important;
+  height: 80px !important;
 }
 /* Mapa */
 
@@ -843,8 +857,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .footer{
     width: 100%;
     background: #0086FF;
-    padding: 15px 0;
-    height: 10em;
+    padding: 15px;
   }
 
   .footer_direitos{
