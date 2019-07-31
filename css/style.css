@@ -553,6 +553,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
 }
 
+.introducaoTopo{
+  top:0px;
+}
+
   .header_menu2{
     text-align: left;
   }
@@ -680,6 +684,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   /* modal */
 
 .modal_bottom{
+  display: none;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -690,6 +695,27 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
   height: auto;
 }
+
+.modal_bottom.mostrar{
+  display: flex;
+}
+
+@keyframes modal{
+  from{
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.mostrar .container{
+  animation: modal 1s;
+}
+
+
 
 .modal_bottom h1{
   font-family: "Avenir black";
