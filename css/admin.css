@@ -674,6 +674,51 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     margin-left: .5em;
 }
 
+/* cards */
+
+.servicos_solicitados{
+    display: block;
+}
+
+.card{
+    font-family: "Avenir normal";
+    background: #fff;
+    margin: 1em 0 1em 0em;
+    padding: .5em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
+
+.subtitulo{
+    font-family: "Avenir black";
+    font-size: 1.5em;
+}
+
+.subtitulo_card{
+    font-family: "Avenir black";
+}
+
+.card img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.card p{
+    display: inline-block;
+}
+
+.local_img{
+    margin-left: 1.5em;
+}
+
+.aviso{
+    background: #97cdff;
+    font-size: .9em;
+    margin: .5em;
+    padding: .3em;
+    border-radius: 30px;
+}
 /* Mapa */
 
 .map{
