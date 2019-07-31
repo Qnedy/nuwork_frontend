@@ -578,6 +578,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     padding: 10px;
     transition: all .3s ease;
     text-align: center;
+    
 }
 
 .opcoes{
@@ -619,6 +620,58 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 .perfil hr{
     color: #0086FF;
     border: solid .5px;
+}
+
+
+/* Informações */
+.main_infos{
+    height: 80%;
+    background: #fff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
+
+.main_infos h1{
+    margin: .5em;
+    font-family: "Avenir black";
+    line-height: 1.1em;
+    font-size: 2em;
+    margin-bottom: .2em;
+}
+
+/* coins */
+
+.card_coin{
+    font-family: "Avenir normal";
+    background: #fff;
+    margin: 1em 0 1em 1.5em;
+    padding: .5em 0 .5em .5em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
+
+.card_coin img{
+    width: 25px;
+    height: 25px;
+    margin-top: .3em;
+    display: inline-block;
+}
+
+.card_coin p{
+    font-family: "Avenir black";
+    display: inline-block;
+    font-size: 1.5em;
+    color: #FFA500;
+}
+
+.btn_comprar{
+    background: #61EE37;
+    padding: .3em .5em .5em .5em;
+    border-radius: 10px;
+    display: inline-flex;
+    margin-left: .5em;
 }
 
 /* Mapa */
