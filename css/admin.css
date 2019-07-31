@@ -625,6 +625,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 /* Informações */
 .main_infos{
+    overflow-y: scroll;
     height: 80%;
     background: #fff;
     margin-top: 1em;
@@ -689,6 +690,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
 }
 
+.card_block{
+    font-family: "Avenir normal";
+    background: #fff;
+    margin: 1em 0 1em 0em;
+    padding: .5em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
+
 .subtitulo{
     font-family: "Avenir black";
     font-size: 1.5em;
@@ -699,12 +709,27 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 }
 
 .card img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     display: inline-block;
 }
 
 .card p{
+    display: inline-block;
+}
+
+.card_block img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.card_block p{
+    display: inline-block;
+}
+
+.card_block_info{
+    width: 70%;
     display: inline-block;
 }
 
