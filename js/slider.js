@@ -24,6 +24,15 @@ function muda3(){
     document.getElementById("main_home").style.marginTop = '95px';
     document.getElementById("main_home").style.background = 'url("https://i.imgur.com/3fEqJON.png") no-repeat center';
     document.getElementById("main_home").style.backgroundSize = 'cover';
+    setTimeout("muda4()", intervalo)
+}
+
+function muda4(){
+    document.getElementById("main_home").style.width = '100%';
+    document.getElementById("main_home").style.height = '400px';
+    document.getElementById("main_home").style.marginTop = '95px';
+    document.getElementById("main_home").style.background = 'url("https://i.imgur.com/sF4lxJ1.png") no-repeat center';
+    document.getElementById("main_home").style.backgroundSize = 'cover';
     setTimeout("muda1()", intervalo)
 }
 
@@ -73,13 +82,29 @@ function mostraServicos(){
         section.classList.add('mostrar_modal_area');
 }
 
-function tiraServicos(idModalServico){
+function tiraServicos(){
     const section = document.getElementById('cozinha_banheiro');
         section.classList.remove('mostrar_modal_area');
-        console.log('é cozinha bvanheiro');
+        console.log('bc');
 }
 
-var li_bc = document.getElementById('cb');
+function mostraServicos2(){
+    const section = document.getElementById('quarto_sala');
+    section.classList.add('mostrar_modal_area');
+}
+
+function tiraServicos2(){
+    const section = document.getElementById('quarto_sala');
+    section.classList.remove('mostrar_modal_area');
+    console.log('qs');
+}
+
+var li_bc = document.querySelector('[data-js="cb"]');
+var li_qs = document.querySelector('[data-js="qs"]');
+
 
 li_bc.addEventListener('mouseover', mostraServicos, false);
 li_bc.addEventListener('mouseout', tiraServicos, false);
+
+li_qs.addEventListener('mouseover', mostraServicos2, false);
+li_qs.addEventListener('mouseout', tiraServicos2, false);
