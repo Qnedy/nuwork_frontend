@@ -99,8 +99,32 @@ function tiraServicos2(){
     console.log('qs');
 }
 
+function mostraServicos3(){
+    const section = document.getElementById('externo');
+    section.classList.add('mostrar_modal_area');
+}
+
+function tiraServicos3(){
+    const section = document.getElementById('externo');
+    section.classList.remove('mostrar_modal_area');
+    console.log('ex');
+}
+
+function mostraServicos4(){
+    const section = document.getElementById('geral');
+    section.classList.add('mostrar_modal_area');
+}
+
+function tiraServicos4(){
+    const section = document.getElementById('geral');
+    section.classList.remove('mostrar_modal_area');
+    console.log('ge');
+}
+
 var li_bc = document.querySelector('[data-js="cb"]');
 var li_qs = document.querySelector('[data-js="qs"]');
+var li_ex = document.querySelector('[data-js="ex"]');
+var li_ge = document.querySelector('[data-js="ge"]');
 
 
 li_bc.addEventListener('mouseover', mostraServicos, false);
@@ -108,3 +132,9 @@ li_bc.addEventListener('mouseout', tiraServicos, false);
 
 li_qs.addEventListener('mouseover', mostraServicos2, false);
 li_qs.addEventListener('mouseout', tiraServicos2, false);
+
+li_ex.addEventListener('mouseover', mostraServicos3, false);
+li_ex.addEventListener('mouseout', tiraServicos3, false);
+
+li_ge.addEventListener('mouseover', mostraServicos4, false);
+li_ge.addEventListener('mouseout', tiraServicos4, false);
