@@ -606,6 +606,41 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     transition: 0.5s ease-out;
   }
 
+  /* modal serviços */
+.teste{
+  display: flex;
+  left: 0px;
+  font-family: "Avenir normal";
+  display: none;
+  padding: 10px 0;
+  z-index: 1;
+  position: relative;
+  width: 100% !important;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.div_hover_servicos{
+  text-align: left;
+}
+
+.div_hover_servicos a{
+  color: #0086FF;
+  letter-spacing: .1em;
+  font-size: 12px;
+  line-height: 20px;
+  display: block;
+  margin: 1em;
+}
+
+.teste.mostrar_modal_area{
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  background: #fff;
+}
 
   /* Search */
 

@@ -65,3 +65,21 @@ document.addEventListener('scroll', function(){
     if(window.pageYOffset <= 100)
         removerModal('modal_id');
 }, false);
+
+/* conhiza_banheiro */
+
+function mostraServicos(){
+        const section = document.getElementById('cozinha_banheiro');
+        section.classList.add('mostrar_modal_area');
+}
+
+function tiraServicos(idModalServico){
+    const section = document.getElementById('cozinha_banheiro');
+        section.classList.remove('mostrar_modal_area');
+        console.log('é cozinha bvanheiro');
+}
+
+var li_bc = document.getElementById('cb');
+
+li_bc.addEventListener('mouseover', mostraServicos, false);
+li_bc.addEventListener('mouseout', tiraServicos, false);
