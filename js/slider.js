@@ -6,6 +6,7 @@ function muda1(){
     document.getElementById("main_home").style.marginTop = '95px';
     document.getElementById("main_home").style.background = 'url("https://i.imgur.com/xe91xqk.png") no-repeat center';
     document.getElementById("main_home").style.backgroundSize = 'cover';
+    document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda2()", intervalo)
 }
 
@@ -15,6 +16,7 @@ function muda2(){
     document.getElementById("main_home").style.marginTop = '95px';
     document.getElementById("main_home").style.background = 'url("https://i.imgur.com/W2SdiGo.png") no-repeat center';
     document.getElementById("main_home").style.backgroundSize = 'cover';
+    document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda3()", intervalo)
 }
 
@@ -24,6 +26,7 @@ function muda3(){
     document.getElementById("main_home").style.marginTop = '95px';
     document.getElementById("main_home").style.background = 'url("https://i.imgur.com/3fEqJON.png") no-repeat center';
     document.getElementById("main_home").style.backgroundSize = 'cover';
+    document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda4()", intervalo)
 }
 
@@ -33,7 +36,9 @@ function muda4(){
     document.getElementById("main_home").style.marginTop = '95px';
     document.getElementById("main_home").style.background = 'url("https://i.imgur.com/sF4lxJ1.png") no-repeat center';
     document.getElementById("main_home").style.backgroundSize = 'cover';
+    document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda1()", intervalo)
+    
 }
 
 
@@ -48,7 +53,7 @@ function navNormal(navId){
 }
 
 document.addEventListener('scroll', function(){
-    if(window.pageYOffset > 50)
+    if(window.pageYOffset > 30)
         navTopo('nav_id');
 
     if(window.pageYOffset <= 100)
@@ -138,3 +143,5 @@ li_ex.addEventListener('mouseout', tiraServicos3, false);
 
 li_ge.addEventListener('mouseover', mostraServicos4, false);
 li_ge.addEventListener('mouseout', tiraServicos4, false);
+
+/* fade slide */
