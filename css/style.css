@@ -826,6 +826,23 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     align-items: center;
   }
 
+
+  .step_dois{
+    animation-delay: 0.5s;
+  }
+
+  .step_tres{
+    animation-delay: 1s;
+  }
+
+  .step_quatro{
+    animation-delay: 1.5s;
+  }
+
+  .delay_btn{
+    animation-delay: 2s;
+  }
+
   .svg_icon{
     position:relative;
     align-items: center;
