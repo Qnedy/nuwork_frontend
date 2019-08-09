@@ -657,7 +657,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     color: #fff !important;
     background: #0086FF;
     border-radius: 30px;
-    padding: 5px 10px 0 10px;
+    padding: 0 10px 0 10px;
     align-items: center;
     justify-content: center;
     -webkit-transition: 0.5s ease-out;
@@ -687,6 +687,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .btn_buscar_profissional a{
     color: #fff !important;
+    display:flex;
+    align-content: center;
+    justify-content: center;
   }
 
   .btn_buscar_profissional{
@@ -697,11 +700,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     font-size: 14px;
     line-height: 20px;
     height: 3em;
-    
     border-radius: 30px;
-    
     margin-left: .3em;
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
