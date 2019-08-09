@@ -2,9 +2,9 @@ var intervalo = 3000;
 
 function muda1(){
     document.getElementById("main_home").style.width = '100%';
-    document.getElementById("main_home").style.height = '400px';
-    document.getElementById("main_home").style.marginTop = '95px';
-    document.getElementById("main_home").style.background = 'url("https://i.imgur.com/xe91xqk.png") no-repeat center';
+    document.getElementById("main_home").style.height = '392px';
+    document.getElementById("main_home").style.marginTop = '98px';
+    document.getElementById("main_home").style.backgroundImage = "url('../img/engenheiro.png')";
     document.getElementById("main_home").style.backgroundSize = 'cover';
     document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda2()", intervalo)
@@ -12,9 +12,9 @@ function muda1(){
 
 function muda2(){
     document.getElementById("main_home").style.width = '100%';
-    document.getElementById("main_home").style.height = '400px';
-    document.getElementById("main_home").style.marginTop = '95px';
-    document.getElementById("main_home").style.background = 'url("https://i.imgur.com/W2SdiGo.png") no-repeat center';
+    document.getElementById("main_home").style.height = '392px';
+    document.getElementById("main_home").style.marginTop = '98px';
+    document.getElementById("main_home").style.backgroundImage = "url('../img/eletricista.png')";
     document.getElementById("main_home").style.backgroundSize = 'cover';
     document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda3()", intervalo)
@@ -22,9 +22,9 @@ function muda2(){
 
 function muda3(){
     document.getElementById("main_home").style.width = '100%';
-    document.getElementById("main_home").style.height = '400px';
-    document.getElementById("main_home").style.marginTop = '95px';
-    document.getElementById("main_home").style.background = 'url("https://i.imgur.com/3fEqJON.png") no-repeat center';
+    document.getElementById("main_home").style.height = '392px';
+    document.getElementById("main_home").style.marginTop = '98px';
+    document.getElementById("main_home").style.backgroundImage = "url('../img/encanador2.png')";
     document.getElementById("main_home").style.backgroundSize = 'cover';
     document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda4()", intervalo)
@@ -32,9 +32,20 @@ function muda3(){
 
 function muda4(){
     document.getElementById("main_home").style.width = '100%';
-    document.getElementById("main_home").style.height = '400px';
-    document.getElementById("main_home").style.marginTop = '95px';
-    document.getElementById("main_home").style.background = 'url("https://i.imgur.com/sF4lxJ1.png") no-repeat center';
+    document.getElementById("main_home").style.height = '392px';
+    document.getElementById("main_home").style.marginTop = '98px';
+    document.getElementById("main_home").style.backgroundImage = "url('../img/pintor2.png')";
+    document.getElementById("main_home").style.backgroundSize = 'cover';
+    document.getElementById("main_home").style.transition = '0.5s ease-out';
+    setTimeout("muda5()", intervalo)
+    
+}
+
+function muda5(){
+    document.getElementById("main_home").style.width = '100%';
+    document.getElementById("main_home").style.height = '392px';
+    document.getElementById("main_home").style.marginTop = '98px';
+    document.getElementById("main_home").style.backgroundImage = "url('../img/pedreiro.png')";
     document.getElementById("main_home").style.backgroundSize = 'cover';
     document.getElementById("main_home").style.transition = '0.5s ease-out';
     setTimeout("muda1()", intervalo)
@@ -53,10 +64,10 @@ function navNormal(navId){
 }
 
 document.addEventListener('scroll', function(){
-    if(window.pageYOffset > 30)
+    if(window.pageYOffset > 80)
         navTopo('nav_id');
 
-    if(window.pageYOffset <= 100)
+    if(window.pageYOffset <= 90)
         navNormal('nav_id');
 }, false);
 

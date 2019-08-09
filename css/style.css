@@ -457,17 +457,25 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
  /* Header */
 
  .header {
-    
     top: 0;
     width: 100%;
+    
     background: #fff;
     padding: 15px 0;
     z-index: 1;
     box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+    
   }
+
+
 
   .header_menu {
     text-align: right;
+  }
+
+  .header_menu ul{
+    margin-left: 3.1em;
+    
   }
   
   .header_menu ul li {
@@ -607,7 +615,67 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   /* modal serviços */
+
+.seta1{
+  width: 10px;
+  height: 10px;
+  border-style: solid ;
+  border-width: 15px;
+  border-color: transparent;
+  border-bottom-color: #0086FF;
+  margin-top: -40px;
+  margin-left: 50px;
+  clear: both;
+  /*background: #000;*/
+  
+}
+
+.seta2{
+  width: 10px;
+  height: 10px;
+  border-style: solid ;
+  border-width: 15px;
+  border-color: transparent;
+  border-bottom-color: #0086FF;
+  margin-top: -40px;
+  margin-left: 170px;
+  clear: both;
+  /*background: #000;*/
+  
+}
+
+.seta3{
+  width: 10px;
+  height: 10px;
+  border-style: solid ;
+  border-width: 15px;
+  border-color: transparent;
+  border-bottom-color: #0086FF;
+  margin-top: -40px;
+  margin-left: 280px;
+  clear: both;
+  /*background: #000;*/
+  
+}
+
+.seta4{
+  width: 10px;
+  height: 10px;
+  border-style: solid ;
+  border-width: 15px;
+  border-color: transparent;
+  border-bottom-color: #0086FF;
+  margin-top: -40px;
+  margin-left: 385px;
+  clear: both;
+  /*background: #000;*/
+  
+}
+
+
 .teste{
+  margin-top: 1.5em;
+  border-top: 1px solid #0086FF;
   display: flex;
   left: 0px;
   font-family: "Avenir normal";
@@ -640,6 +708,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   position: fixed;
   z-index: 100;
   background: #fff;
+  
 }
 
   /* Search */
@@ -723,8 +792,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   #main_home{
     width: 100%;
-    height: 400px;
-    margin-top: 95px;
+    height: 392px;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -831,12 +900,14 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     width: 100%;
     background: #0086FF;
     padding-top: .4em;
+    
    }
 
   .infos_icone{
     fill:#fff;
     float:left;
   }
+
 
   .infos_lista li h3{
     font-family: "Avenir normal";
@@ -918,15 +989,25 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 /* Mais informações */
   .more_infos{
     width: 100%;
-    background: #0086FF;
+    background: #F9F9F9;
     padding: 1.5em;
     font-weight: bold;
   }
 
-  .more_infos li h3, .more_infos li p{
+  .more_infos li h3{
+    font-size: 3em;
+    font-family: "Avenir black";
+    color: #0086FF;
+  }
+
+  .more_infos li p{
     font-size: 1.5em;
     font-family: "Avenir normal";
-    color: #fff;
+    color: #0086FF;
+  }
+
+  .more_infos li{
+    text-align: center;
   }
 
   /* Comece agora */
@@ -962,7 +1043,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   #search_center{
     width:70%;
-    border-radius: 30px;
+    border-radius: 5px;
     display: inline-block;
     padding: 6pt;
     border: none;
