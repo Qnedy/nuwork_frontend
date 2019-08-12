@@ -447,6 +447,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
  * Styles
  */
 
+ *{
+   color: #575757;
+ }
+
  .blue{
   color:  #0086FF;
  }
@@ -494,7 +498,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .header_menu ul li a:hover {
     color: #3f78bb;
   }
-}
+
 
 /* Button style */
 .blue_btn{
