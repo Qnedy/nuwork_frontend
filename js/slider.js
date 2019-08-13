@@ -94,45 +94,69 @@ document.addEventListener('scroll', function(){
 /* conhiza_banheiro */
 
 function mostraServicos(){
-        const section = document.getElementById('cozinha_banheiro');
-        section.classList.add('mostrar_modal_area');
+    const section = document.getElementById('cozinha_banheiro');
+    const azul = document.querySelector('.ativo1');
+    azul.classList.add('deixaItemAzul');
+    azul.classList.add('deixaItemAzul2');
+    section.classList.add('mostrar_modal_area');
 }
 
 function tiraServicos(){
     const section = document.getElementById('cozinha_banheiro');
-        section.classList.remove('mostrar_modal_area');
-        console.log('bc');
+    const azul = document.querySelector('.ativo1');
+    azul.classList.remove('deixaItemAzul');
+    azul.classList.remove('deixaItemAzul2');
+    section.classList.remove('mostrar_modal_area');
+    
 }
 
 function mostraServicos2(){
     const section = document.getElementById('quarto_sala');
+    const azul = document.querySelector('.ativo2');
+    azul.classList.add('deixaItemAzul');
+    azul.classList.add('deixaItemAzul2');
     section.classList.add('mostrar_modal_area');
 }
 
 function tiraServicos2(){
     const section = document.getElementById('quarto_sala');
+    const azul = document.querySelector('.ativo2');
+    azul.classList.remove('deixaItemAzul');
+    azul.classList.remove('deixaItemAzul2');
     section.classList.remove('mostrar_modal_area');
     console.log('qs');
 }
 
 function mostraServicos3(){
     const section = document.getElementById('externo');
+    const azul = document.querySelector('.ativo3');
+    azul.classList.add('deixaItemAzul');
+    azul.classList.add('deixaItemAzul2');
     section.classList.add('mostrar_modal_area');
 }
 
 function tiraServicos3(){
     const section = document.getElementById('externo');
+    const azul = document.querySelector('.ativo3');
+    azul.classList.remove('deixaItemAzul');
+    azul.classList.remove('deixaItemAzul2');
     section.classList.remove('mostrar_modal_area');
     console.log('ex');
 }
 
 function mostraServicos4(){
     const section = document.getElementById('geral');
+    const azul = document.querySelector('.ativo4');
+    azul.classList.add('deixaItemAzul');
+    azul.classList.add('deixaItemAzul2');
     section.classList.add('mostrar_modal_area');
 }
 
 function tiraServicos4(){
     const section = document.getElementById('geral');
+    const azul = document.querySelector('.ativo4');
+    azul.classList.remove('deixaItemAzul');
+    azul.classList.remove('deixaItemAzul2');
     section.classList.remove('mostrar_modal_area');
     console.log('ge');
 }

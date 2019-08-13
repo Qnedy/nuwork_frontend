@@ -614,6 +614,24 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     transition: 0.5s ease-out;
   }
 
+  .deixaItemAzul{
+    fill: #0086FF;
+    color: #0086FF;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+
+  .deixaItemAzul2{
+    color: #0086FF;
+    fill: #0086FF;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+
   /* modal serviços */
 
 .seta1{
