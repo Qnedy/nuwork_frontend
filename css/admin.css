@@ -459,13 +459,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
    color: #FF9D00;
  }
 
- html{
-     background: #eeeeee;
+ body{
+    background: #eeeeee !important;
  }
  /* Header */
 
  .header {
-    
     top: 0;
     width: 100%;
     background: #fff;
@@ -631,7 +630,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 .main_infos{
     overflow-y: scroll;
     height: 80%;
-    background: #fff;
+    background: transparent;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 10px;
