@@ -879,3 +879,120 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     float: left;
     margin-right: 30%;
   }
+
+
+  /* modal bem vindo */
+
+  .bemVindo_container.mostrar_bemVindo{
+    display: flex;
+  }
+
+  .bemVindo_container{
+    font-family:"Avenir normal";
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+  }
+
+  .conteudo_bemVindo{
+    background: #fff;
+    width: 60%;
+    min-width: 495px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+    position: relative;
+  }
+
+    
+  @keyframes conteudo_bemVindo{
+    from{
+      opacity: 0;
+      transform: translate3d(0, -60px, 0); 
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0, 0, 0); 
+    }
+  }
+  .mostrar_bemVindo .conteudo_bemVindo{
+    animation: conteudo_bemVindo .3s;
+  }
+
+  .conteudo_bemVindo a{
+    cursor: pointer;
+    width: 30%;
+    min-width: 231px;
+    margin: 0 auto;
+  }
+
+  .conteudo_bemVindo h4{
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  .blue_btn{
+    background: #FFA500;
+    border-radius: 30px;
+    padding: 10px;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+  
+  .blue_btn a{
+    color: #fff !important;
+  }
+  
+  
+  .blue_btn:hover{
+    background: #F47106;
+    box-shadow: 0px 5px 10px rgba(255,165,0,0.40);
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+
+  .btn_fechar{
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-family: "Avenir black";
+    padding: 10px;
+    color: #fff !important;
+    background: #0086FF;
+    border: 1px solid #0086FF;
+    box-shadow: 0px 5px 10px rgba(105,105,105,0.40);
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+
+  .btn_fechar:hover{
+    color: #fff !important;
+    box-shadow: 0px 5px 10px rgba(105,105,105,0.40);
+    background: #0086FF;
+    border: 1px solid #0086FF;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
