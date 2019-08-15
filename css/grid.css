@@ -85,6 +85,12 @@
     position: relative;
   }
 
+  .container-maior{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 2px;
+    position: relative;
+  }
   
   .container:after, .container:before {
     content: " ";
