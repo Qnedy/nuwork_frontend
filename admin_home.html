@@ -51,7 +51,7 @@
                             <h3>Nucoins:</h3>
                             <img src="img/svg/coin.svg"/>
                             <p>2.515</p>
-                            <div class="btn_comprar">
+                            <div data-js="btn_comprarMoeda" class="btn_comprar">
                                 <a href="#"><img src="img/svg/add.svg" /></a>
                             </div>
                         </div>
@@ -214,6 +214,38 @@
                     Para começarmos bem, você ganhou 200 Nucoins e já pode utilizá-las para se conectar a mais clientes.
                 </h4>
                 <a class="blue_btn btn_content">Adquira mais nucoins</a>
+            </div>
+        </div>
+
+        <div data-js="modal_compra" class="compra_container mostrar_compra">
+            <div class="conteudo_compra">
+                <button data-js="btn_fecharModalCompra" class="btn_fecharCompra">X</button>
+                <h4>
+                    Selecione o pacote de moedas que desejar
+                </h4>
+                <div class="card_pacote grid-3">
+                    <h3>
+                        R$ 17,00
+                    </h3>
+                    <img src="img/svg/white_coin.svg"/>
+                    <button><img src="img/svg/coin.svg"/>130</button>
+                </div>
+
+                <div class="card_pacote grid-3">
+                    <h3>
+                        R$ 30,00
+                    </h3>
+                    <img src="img/svg/white_coin.svg"/>
+                    <button><img src="img/svg/coin.svg"/>330</button>
+                </div>
+
+                <div class="card_pacote grid-3">
+                    <h3>
+                        R$ 50,00
+                    </h3>
+                    <img src="img/svg/white_coin.svg"/>
+                    <button><img src="img/svg/coin.svg"/>550</button>
+                </div>
             </div>
         </div>
     <script src="js/admin.js"></script>
