@@ -1205,8 +1205,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     font-weight: bold;
     color: #0086FF;
     text-align: left;
-    
-    margin-left:.5em;
+  }
+
+  .links_social{
+    margin-top: 10em;
   }
 
   .subtitulo_links{
@@ -1215,9 +1217,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     line-height: 30px;
     font-weight: bold;
     color: #0086FF;
-    text-align: right;
+    left: -10px;
     margin-top:.5em;
-    margin-left:.5em;
   }
 
   .subtitulo_area{
@@ -1226,7 +1227,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     color: #0086FF;
     text-align: left;
     margin-top:.5em;
-    margin-left:.5em;
   }
 
   .list_servicos{
@@ -1253,7 +1253,26 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .list_container{
     display: inline-block;
     margin-right: .5em;
-    max-height: 9em;
+    
+  }
+
+  .list_container a{
+    font-family: "Avenir normal";
+    font-size: .6em;
+    color: #0086FF;
+    text-align: left;
+    margin-top:.5em;
+    line-height: 20px;
+    display: block;
+  }
+
+  .list_container strong{
+    font-family: "Avenir normal";
+    font-size: .8em;
+    color: #0086FF;
+    text-align: left;
+    margin-top: 1em;
+    display: block;
   }
 
   .footer_redes ul li {
