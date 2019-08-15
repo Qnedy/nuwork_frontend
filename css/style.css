@@ -708,12 +708,23 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   transition: opacity 0.5s linear;
 }
 
+.servicos_margin_top{
+  margin-top: 1em;
+}
+
+.div_hover_servicos strong{
+  color: #575757;
+  font-family: "Avenir black";
+  margin-left: 10px;
+  font-weight: bold;
+}
+
 .div_hover_servicos{
   text-align: left;
 }
 
 .div_hover_servicos a{
-  color: #0086FF;
+  color: #575757;
   letter-spacing: .1em;
   font-size: 12px;
   line-height: 20px;
