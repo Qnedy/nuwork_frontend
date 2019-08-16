@@ -30,6 +30,7 @@ html {
  */
 body {
   margin: 0;
+  color: #575757;
 }
 
 /* HTML5 display definitions
@@ -973,7 +974,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
-    color: #000;
+    color: #575757;
     text-align: center;
     margin-top:2em;
   }
