@@ -61,6 +61,7 @@ function navTopo(navId){
 function navNormal(navId){
     const modal = document.getElementById(navId);
     modal.classList.remove('introducaoTopo');
+    modal.classList.remove('introducaoTopoZero');
 }
 
 document.addEventListener('scroll', function(){
@@ -84,10 +85,10 @@ function removerModal(idModal){
 }
 
 document.addEventListener('scroll', function(){
-    if(window.pageYOffset > 90)
+    if(window.pageYOffset > 80)
         mostraModal('modal_id');
 
-    if(window.pageYOffset <= 100)
+    if(window.pageYOffset <= 90)
         removerModal('modal_id');
 }, false);
 
@@ -228,3 +229,19 @@ document.addEventListener('scroll', function(){
 }, false);
 
 
+/* botao fechar modal top */
+
+const btn_fechar = document.querySelector('[data-js="btn_fecharJs"]');
+
+console.log(btn_fechar);
+
+function fechaModalTop(){
+    const modal = document.getElementById('modal_id');
+    const introducao = document.getElementById('nav_id');
+    modal.classList.remove('mostrar');
+    introducao.classList.remove('introducaoTopo');
+    introducao.classList.add('introducaoTopoZero');
+    
+}
+
+btn_fechar.addEventListener('click', fechaModalTop, false);

@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     
     background: #fff;
     padding: 15px 0;
-    z-index: 1;
+    z-index: 100;
     box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
     
   }
@@ -557,12 +557,16 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     width: 100%;
     background: #fff;  /*#3f78bb #025392*/;
     
-    z-index: 1;
+    z-index: 10;
     box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
 }
 
 .introducaoTopo{
-  top:0px;
+  top: 60px;
+}
+
+.introducaoTopoZero{
+  top: 0px !important;
 }
 
   .header_menu2{
@@ -816,7 +820,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   .search_in_list{
-    margin-top: 1em;
+    margin-top: 2em;
     display: flex;
     color: rgba(105,105,105,0.05) !important;
   }
@@ -825,7 +829,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   #main_home{
     width: 100%;
-    height: 392px;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -847,6 +850,17 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     line-height: 1.1em;
     font-size: 45px;
    }
+
+   .texto_modal{
+     color: #fff;
+    font-family: "Avenir normal";
+    line-height: 1.1em;
+    font-size: 25px;
+   }
+
+   .texto_modal{
+    margin-top: 5px;
+  }
 
   .texto_home p{
     font-family: "Avenir normal";
@@ -873,11 +887,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 .modal_bottom{
   display: none;
   position: fixed;
-  bottom: 0;
+  top: 0;
   width: 100%;
-  background: #FFA500;  /*#3f78bb #025392*/;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  background: #0086FF; 
   z-index: 1;
   box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
   height: auto;
@@ -885,11 +897,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 .modal_bottom.mostrar{
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .modal_bottom div{
-  
   justify-content: space-between;
 }
 
@@ -908,7 +920,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   animation: modal 1s;
 }
 
-
+.btn_fecharModalTop{
+    width: 50px;
+    height: 50px;
+    font-family: "Avenir normal";
+    margin-bottom: 10px; 
+    color: #fff !important;
+    background: transparent;
+    border: 0px;
+}
 
 .modal_bottom h1{
   font-family: "Avenir black";
@@ -921,8 +941,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 .btn_modal{
   right: 0px;
-  margin-top: .5em;
-  margin-left: 1.2em;
+  margin-left: 7em;
   font-family: "Avenir black";
   color: #fff !important;
   text-transform: uppercase;
@@ -1322,7 +1341,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     width: 100%;
     background: #0086FF;
     padding: 15px 0;
-    height: 10em;
+    height: 4em;
   }
 
   .footer_direitos{
