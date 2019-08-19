@@ -180,3 +180,51 @@ li_ge.addEventListener('mouseover', mostraServicos4, false);
 li_ge.addEventListener('mouseout', tiraServicos4, false);
 
 /* fade slide */
+
+
+/* numeros animados */
+
+
+
+var $h3 = document.querySelector('[data-js="number_cresc"]');
+var $h32 = document.querySelector('[data-js="number_cresc2"]');
+var $h33 = document.querySelector('[data-js="number_cresc3"]');
+var id_contador;
+var numero = 0;
+var textoNumber;
+
+function crescNumber(){
+    if(numero <=10000){
+        numero = +numero + 5;
+        $h3.innerHTML = numero;
+        id_contador = setTimeout(crescNumber, 5);
+        console.log("aqui");
+    }
+}
+
+function crescNumber2(){
+    if(numero <=15000){
+        numero = +numero + 3;
+        $h32.innerHTML = numero;
+        id_contador = setTimeout(crescNumber2, 5);
+    }
+}
+
+function crescNumber3(){
+    if(numero <=17000){
+        numero = +numero + 7;
+        $h33.innerHTML = numero;
+        id_contador = setTimeout(crescNumber3, 5);
+    }
+}
+
+document.addEventListener('scroll', function(){
+    if(window.pageYOffset > 725){
+        crescNumber();
+        crescNumber2();
+    crescNumber3();
+    }
+        
+}, false);
+
+
