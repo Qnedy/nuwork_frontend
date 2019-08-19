@@ -1209,7 +1209,17 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   .links_social{
-    margin-top: 10em;
+    margin-top: 2em;
+  }
+
+  .a_links{
+    font-family: "Avenir normal";
+    font-size: .8em;
+    color: #0086FF;
+    text-align: left;
+    margin-top:.5em;
+    line-height: 20px;
+    display: block;
   }
 
   .subtitulo_links{
@@ -1284,7 +1294,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .footer_redes ul li a {
     border-radius: 10px;
     display: block;
-    padding: 10px;
+    padding: 5px;
     transition: all .5s ease;
   }
   
