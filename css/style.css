@@ -556,8 +556,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     position: fixed;
     width: 100%;
     background: #fff;  /*#3f78bb #025392*/;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    
     z-index: 1;
     box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
 }
@@ -580,6 +579,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .header_menu2 ul li{
     width: 100pt;
     display: list-item;
+    
   }
   
   .areas_link{
@@ -595,6 +595,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     -moz-transition: 0.5s ease-out;
     -o-transition: 0.5s ease-out;
     transition: 0.5s ease-out;
+  }
+
+  .header_menu2 ul li a{
+    margin: 10px;
   }
 
   .header_menu2 ul li a div:hover{
@@ -693,7 +697,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 
 .teste{
-  margin-top: 1em;
   border-top: 1px solid #0086FF;
   display: flex;
   left: 0px;
