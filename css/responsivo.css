@@ -79,8 +79,7 @@
       fill: #A9A9A9; /*#3f78bb*/;
       letter-spacing: .1em;
       font-size: 12px;
-      line-height: 20px;
-      padding: 10px 0;
+      
       -webkit-transition: 0.5s ease-out;
       -moz-transition: 0.5s ease-out;
       -o-transition: 0.5s ease-out;
@@ -103,7 +102,7 @@
     }
 
     .search_in_list{
-      margin-top: 2em;
+      margin-top: 3em;
       display: flex;
       flex-direction: column;
       margin-bottom: 0px;
@@ -120,8 +119,79 @@
       display: flex;
       padding: 6pt;
       border: none;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       box-shadow: 0px 5px 10px rgba(105,105,105,0.20);
     }
+
+    .introducaoTopo{
+      top: 0px;
+    }
+
+    #main_home{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-left: 80px;
+      margin-top: -60px !important;
+      background: #fff !important;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+     }
+
+     .texto_home{
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px;
+      width: 300pt;
+     }
+  
+    .texto_home h1{
+      margin: 0 auto;
+      font-family: "Avenir black";
+      line-height: 1.1em;
+      font-size: 30px;
+     }
+
+     .texto_home p{
+       margin: 0 auto;
+      font-family: "Avenir normal";
+      margin-top: .5em;
+      margin-bottom: .5em;
+      line-height:1.2em;
+      text-align: justify;
+    }
+  
+    .texto_home div a{
+      float: none;
+    }
+
+
+    .infos{
+      width: 100%;
+      
+      background: #0086FF;
+      padding-top: .4em;
+
+     }
+
+     .infos_lista li h3{
+      font-family: "Avenir normal";
+      justify-content: center;
+      font-size: .8em;
+      margin-top: 1em;
+      margin-left: 1.5em;
+      color: #fff;
+    }
+ 
+ 
+     .infos_lista li{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    } 
 }
   
