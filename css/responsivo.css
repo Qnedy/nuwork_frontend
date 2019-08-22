@@ -1,0 +1,50 @@
+/* estilo para tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+   
+}
+
+/* estilo para smartphones */
+
+@media only screen and (max-width: 787px) {
+    .header{
+      position: relative;
+    }
+
+    .header .container{
+      text-align: center;
+    }
+
+    .header_menu{
+      text-align: center;
+    }
+  
+    .header_menu ul{
+      padding-right: 20px;
+      margin-left: 0px;
+      margin-top: 10px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .header_menu ul li {
+      display: block;
+      
+    }
+    
+    .header_menu ul li a {
+      font-family: "Avenir black" !important;
+      color:  #0086FF;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 10px;
+      transition: all .3s ease;
+    }
+
+    /* introducao */
+}
+  
