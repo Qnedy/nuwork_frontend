@@ -46,5 +46,82 @@
     }
 
     /* introducao */
+
+    #modal_id{
+      display:none;
+    }
+
+    #nav_id{
+      position: relative;
+    }
+
+    #cozinha_banheiro{
+      display: none;
+    }
+
+    #quarto_sala{
+      display: none;
+    }
+
+    #externo{
+      display: none;
+    }
+
+    #geral{
+      display: none;
+    }
+
+    .areas_link{
+      display: block;
+      font-family: "Avenir normal";
+      text-align: center;
+      color: #A9A9A9;
+      fill: #A9A9A9; /*#3f78bb*/;
+      letter-spacing: .1em;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 10px 0;
+      -webkit-transition: 0.5s ease-out;
+      -moz-transition: 0.5s ease-out;
+      -o-transition: 0.5s ease-out;
+      transition: 0.5s ease-out;
+    }
+
+    .header_menu2 ul{
+      display: flex;
+      flex-wrap: wrap;
+      width: 310px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header_menu2{
+      display:flex;
+      flex-direction: column;
+      float: right;
+    }
+
+    .search_in_list{
+      margin-top: 2em;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: rgba(105,105,105,0.05) !important;
+    }
+
+    #txt_busca{
+      width:15em;
+      border-radius: 5px;
+      display: flex;
+      padding: 6pt;
+      border: none;
+      margin-bottom: 10px;
+      box-shadow: 0px 5px 10px rgba(105,105,105,0.20);
+    }
 }
   
