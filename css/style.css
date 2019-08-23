@@ -1340,22 +1340,27 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     width: 100%;
     background: #0086FF;
     padding: 15px 0;
-    height: 4em;
+    
   }
 
   .footer_direitos{
     font-family: "Avenir normal";
     text-align: right;
     color:#fff;
+    margin-left: 17px;
   }
 
   .footer .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
   .footer .container a{
     float: left;
-    margin-right: 30%;
+    margin-right: 40%;
+  }
+
+  .footer .container a img{
+    margin-left: -10px;
   }

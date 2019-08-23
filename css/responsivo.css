@@ -225,5 +225,33 @@
       font-size: 30px;
       margin-bottom: .5em;
      }
+
+     .footer{
+      width: 100%;
+      background: #0086FF;
+      padding: 15px 0;
+      
+    }
+  
+    .footer_direitos{
+      font-family: "Avenir normal";
+      text-align: center;
+      color:#fff;
+     
+    }
+  
+    .footer .container{
+      display: block;
+      
+    }
+  
+    .footer .container a{
+      display: flex;
+    }
+
+    .footer .container a img{
+      margin-left: 30px;
+      margin-bottom: 10px;
+    }
 }
   
