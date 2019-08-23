@@ -716,6 +716,41 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   transition: opacity 0.5s linear;
 }
 
+.login_modal{
+  border: 1px solid #0086FF;
+  background: #fff;
+  display: flex;
+  font-family: "Avenir normal";
+  display: none;
+  padding: 10px 0;
+  z-index: 10000;
+  position: absolute;
+  width: 30% !important;
+  right: 0px;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.login_modal.mostaLogin{
+  display: flex;
+}
+
+.setaLogin{
+  width: 10px;
+  height: 10px;
+  border-style: solid ;
+  border-width: 15px;
+  border-color: transparent;
+  border-bottom-color: #0086FF;
+  margin-top: -40px;
+  margin-left: 240px;
+  clear: both;
+  /*background: #000;*/
+  
+}
+
 .servicos_margin_top{
   margin-top: 1em;
 }

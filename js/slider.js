@@ -180,7 +180,24 @@ li_ex.addEventListener('mouseout', tiraServicos3, false);
 li_ge.addEventListener('mouseover', mostraServicos4, false);
 li_ge.addEventListener('mouseout', tiraServicos4, false);
 
-/* fade slide */
+/* modal login */
+
+function mostraLogin(){
+    const section = document.getElementById('login');
+    section.classList.add('mostaLogin');
+    console.log('login');
+   
+}
+
+function tiraLogin(){
+    const section = document.getElementById('login');
+    section.classList.remove('mostaLogin');
+}
+
+var btnLogin = document.querySelector('[data-js="btn_login"]');
+
+btnLogin.addEventListener('click', mostraLogin, false);
+
 
 
 /* numeros animados */
