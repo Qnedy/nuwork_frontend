@@ -381,5 +381,50 @@
     padding-top: .5em;
     padding-bottom: .5em;
   }
+
+  /* Admin page */
+
+  .painel{
+    height: 80%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
+
+.main_infos{
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 450px;
+  margin-right: -100px !important;
+  background: transparent;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
+
+.footer_direitos p{
+  font-family: "Avenir normal";
+  text-align: center;
+  color: #fff !important;
+}
+
+
+.header {
+  top: 0;
+  width: 100%;
+  background: #fff;
+  padding: 15px 0;
+  z-index: 1;
+  text-align: center;
+  box-shadow: 0px 1px 2px rgba(105,105,105,0.40);
+}
 }
   
