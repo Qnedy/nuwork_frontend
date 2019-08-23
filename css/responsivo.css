@@ -190,5 +190,40 @@
       justify-content: center;
 
     } 
+
+    .flex_items{
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 1em;
+    }
+
+    #search_center{
+      width: 96%;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 6pt;
+      border: none;
+      box-shadow: 0px 5px 10px rgba(32,0,159,0.20);
+    }
+
+    .texto_final{
+      font-family: "Avenir normal";
+      text-align: center;
+      background: 50px;
+      margin-top: 40px;
+      padding: 10px;
+      width: 330px;
+      
+      
+     }
+
+    .texto_final h1{
+      font-family: "Avenir black";
+      line-height: 1.1em;
+      font-size: 30px;
+      margin-bottom: .5em;
+     }
 }
   

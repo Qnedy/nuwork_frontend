@@ -1086,14 +1086,14 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 
   .starter_now div p:before{
-    content: url("https://i.imgur.com/lDmqCkA.png");
+    content: url("../img/seta_cima.png");
     display: block; 
     margin: 14px auto 10px 10em;
     text-align: left;
   }
 
   .starter_now div p:after {
-    content: url("https://i.imgur.com/QeCEgK6.png");
+    content: url("../img/seta_baixo.png");
     display: block; 
     margin: 14px 10em 10px auto;
     text-align: right;
